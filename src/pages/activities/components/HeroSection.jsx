@@ -69,10 +69,10 @@ const HeroSection = () => {
             className="grid grid-cols-2 lg:grid-cols-4 gap-8 mt-16"
           >
             {[
-              { number: "500+", label: "Schools Transformed", icon: "School" },
-              { number: "50,000+", label: "Students Impacted", icon: "Users" },
-              { number: "1,200+", label: "Educators Trained", icon: "GraduationCap" },
-              { number: "25+", label: "States Reached", icon: "MapPin" }
+              { number: "10+", label: "Schools Transformed", icon: "School" },
+              { number: "100+", label: "Students Impacted", icon: "Users" },
+              { number: "10+", label: "Educators Trained", icon: "GraduationCap" },
+              { number: "2+", label: "States Reached", icon: "MapPin" }
             ]?.map((stat, index) => (
               <div key={index} className="text-center">
                 <div className="inline-flex items-center justify-center w-12 h-12 bg-primary/10 rounded-lg mb-4">

@@ -10,8 +10,8 @@ const ContactInfo = () => {
       title: 'Headquarters',
       details: [
         'VishwAlpha Education Technologies',
-        'Tech Park, Sector 18, Gurugram',
-        'Haryana 122015, India'
+        // 'Tech Park, Sector 18, Gurugram',
+        'Hyderabad, India'
       ],
       action: 'View on Maps',
       color: 'violet'
@@ -20,8 +20,8 @@ const ContactInfo = () => {
       icon: 'Phone',
       title: 'Phone Support',
       details: [
-        '+91 98765 43210 (Primary)',
-        '+91 87654 32109 (Support)',
+        '+91 6301 930 132 (Primary)',
+        '+91 86398 91337 (Support)',
         'Available: Mon-Sat, 9 AM - 7 PM IST'
       ],
       action: 'Call Now',
@@ -42,7 +42,7 @@ const ContactInfo = () => {
       icon: 'MessageCircle',
       title: 'Instant Chat',
       details: [
-        'WhatsApp Business: +91 98765 43210',
+        'WhatsApp Business: +91 6301 930 132',
         'Live Chat: Available 24/7',
         'AI Assistant: Immediate responses'
       ],

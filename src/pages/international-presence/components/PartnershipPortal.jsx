@@ -12,28 +12,28 @@ const PartnershipPortal = () => {
       name: 'Educational Institutions',
       icon: 'GraduationCap',
       description: 'Partner with schools and universities worldwide',
-      count: '2,500+'
+      count: '10+'
     },
     {
       id: 'government',
       name: 'Government Bodies',
       icon: 'Building2',
       description: 'Collaborate with education ministries and agencies',
-      count: '45+'
+      count: '2+'
     },
     {
       id: 'technology',
       name: 'Technology Partners',
       icon: 'Cpu',
       description: 'Integrate with leading EdTech platforms',
-      count: '120+'
+      count: '10+'
     },
     {
       id: 'research',
       name: 'Research Institutions',
       icon: 'Microscope',
       description: 'Joint research and development initiatives',
-      count: '85+'
+      count: '10+'
     }
   ];
 
@@ -271,21 +271,21 @@ const PartnershipPortal = () => {
         ))}
       </div>
       {/* Partnership Content */}
-      <motion.div
+      {/* <motion.div
         key={activeTab}
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3 }}
         className="space-y-8"
-      >
+      > */}
         {/* Header */}
-        <div className="text-center">
+        {/* <div className="text-center">
           <h2 className="text-3xl font-bold text-text-primary mb-4">{currentContent?.title}</h2>
           <p className="text-lg text-text-secondary max-w-3xl mx-auto">{currentContent?.subtitle}</p>
-        </div>
+        </div> */}
 
         {/* Benefits Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {currentContent?.benefits?.map((benefit, index) => (
             <motion.div
               key={index}
@@ -305,10 +305,10 @@ const PartnershipPortal = () => {
               </div>
             </motion.div>
           ))}
-        </div>
+        </div> */}
 
         {/* Featured Partners */}
-        <div>
+        {/* <div>
           <h3 className="text-2xl font-bold text-text-primary mb-6 text-center">Featured Partners</h3>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             {currentContent?.partners?.map((partner, index) => (
@@ -351,10 +351,10 @@ const PartnershipPortal = () => {
               </motion.div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Partnership CTA */}
-        <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-2xl p-8 text-center border border-primary/20">
+        {/* <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-2xl p-8 text-center border border-primary/20">
           <h3 className="text-2xl font-bold text-text-primary mb-4">Ready to Partner with VishwAlpha?</h3>
           <p className="text-text-secondary mb-6 max-w-2xl mx-auto">
             Join our global network of educational partners and transform learning experiences with AI-powered solutions.
@@ -378,7 +378,7 @@ const PartnershipPortal = () => {
             </Button>
           </div>
         </div>
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 };

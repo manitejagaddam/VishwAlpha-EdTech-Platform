@@ -21,19 +21,19 @@ const InternationalPresence = () => {
   const globalStats = [
     {
       icon: 'Globe',
-      value: '50+',
+      value: '2+',
       label: 'Countries Served',
       description: 'Active presence across six continents'
     },
     {
       icon: 'Users',
-      value: '3.2M+',
+      value: '100+',
       label: 'Students Impacted',
       description: 'Transforming lives through AI education'
     },
     {
       icon: 'Building2',
-      value: '18,500+',
+      value: '10+',
       label: 'Partner Institutions',
       description: 'Schools, universities, and organizations'
     },
@@ -198,7 +198,7 @@ const InternationalPresence = () => {
         </div>
       </section>
       {/* Global Map Section */}
-      <section className="py-16 bg-slate-900/30">
+      {/* <section className="py-16 bg-slate-900/30">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -225,7 +225,7 @@ const InternationalPresence = () => {
             <GlobalMap />
           </motion.div>
         </div>
-      </section>
+      </section> */}
       {/* Key Features Section */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -389,7 +389,7 @@ const InternationalPresence = () => {
               
               <div className="mt-8 pt-8 border-t border-border">
                 <p className="text-sm text-text-muted">
-                  Trusted by 18,500+ institutions across 50+ countries • 96% satisfaction rate • 3.2M+ students impacted
+                  Trusted by 100+ institutions across 2+ countries • 96% satisfaction rate • 100+ students impacted
                 </p>
               </div>
             </div>
@@ -429,7 +429,7 @@ const InternationalPresence = () => {
             
             <div className="text-sm text-text-muted">
               <p>&copy; {new Date()?.getFullYear()} VishwAlpha. All rights reserved.</p>
-              <p className="mt-2">Transforming education across 50+ countries with culturally-aware AI solutions.</p>
+              <p className="mt-2">Transforming education across 2+ countries with culturally-aware AI solutions.</p>
             </div>
           </div>
         </div>

@@ -8,7 +8,7 @@ const CompanyTimeline = () => {
   const milestones = [
     {
       id: 1,
-      year: '2020',
+      year: '2022',
       title: 'Foundation & Vision',
       description: 'VishwAlpha was founded with the vision to revolutionize Indian education through AI',
       details: `Our journey began when a group of passionate educators and technologists came together with a shared vision: to transform Indian education by seamlessly blending ancient wisdom with cutting-edge AI technology.\n\nInspired by the launch of NEP 2020, we recognized the urgent need for intelligent solutions that could help educational institutions adapt to the new paradigm while maintaining their cultural roots.`,
@@ -17,7 +17,7 @@ const CompanyTimeline = () => {
     },
     {
       id: 2,
-      year: '2021',
+      year: '2023',
       title: 'First AI Solutions',
       description: 'Launched our first suite of AI-powered educational analytics tools',
       details: `After months of research and development, we introduced our flagship AI analytics platform that could analyze student performance patterns and provide personalized learning recommendations.\n\nOur pilot program with 10 schools in Maharashtra showed remarkable results: 40% improvement in student engagement and 25% increase in learning outcomes.`,
@@ -26,7 +26,7 @@ const CompanyTimeline = () => {
     },
     {
       id: 3,
-      year: '2022',
+      year: '2024',
       title: 'NEP 2020 Integration',
       description: 'Became the first platform to fully integrate NEP 2020 guidelines with AI technology',
       details: `We achieved a major milestone by becoming the first EdTech platform to fully align our solutions with NEP 2020 guidelines, ensuring that schools could seamlessly transition to the new educational framework.\n\nOur comprehensive NEP implementation toolkit helped over 100 schools successfully adopt the new policy requirements.`,
@@ -35,7 +35,7 @@ const CompanyTimeline = () => {
     },
     {
       id: 4,
-      year: '2023',
+      year: '2025',
       title: 'National Recognition',
       description: 'Received recognition from Ministry of Education for innovation in EdTech',
       details: `Our innovative approach to AI-powered education caught the attention of the Ministry of Education, leading to official recognition and inclusion in the national EdTech framework.\n\nWe expanded our reach to serve over 500 educational institutions across 15 states, impacting more than 50,000 students directly.`,
@@ -44,7 +44,7 @@ const CompanyTimeline = () => {
     },
     {
       id: 5,
-      year: '2024',
+      year: '2025',
       title: 'International Expansion',
       description: 'Expanded operations to Southeast Asia and established global partnerships',
       details: `Building on our success in India, we expanded our operations to Southeast Asian markets, adapting our solutions to local educational contexts while maintaining our core AI capabilities.\n\nEstablished strategic partnerships with educational institutions in Singapore, Malaysia, and Thailand.`,

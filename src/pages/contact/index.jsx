@@ -35,7 +35,7 @@ const Contact = () => {
         <ContactInfo />
         
         {/* Location & Map */}
-        <LocationMap />
+        {/* <LocationMap /> */}
         
         {/* FAQ Section */}
         <FAQSection />
@@ -88,7 +88,7 @@ const Contact = () => {
                   Trusted Partner
                 </h3>
                 <p className="text-sm text-text-secondary">
-                  Serving 500+ educational institutions with 98% satisfaction rate and proven results.
+                  Serving 10+ educational institutions with 98% satisfaction rate and proven results.
                 </p>
               </div>
             </div>

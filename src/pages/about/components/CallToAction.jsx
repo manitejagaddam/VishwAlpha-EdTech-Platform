@@ -39,10 +39,10 @@ const CallToAction = () => {
   ];
 
   const stats = [
-    { number: '500+', label: 'Schools Transformed', icon: 'School' },
-    { number: '100K+', label: 'Students Empowered', icon: 'GraduationCap' },
-    { number: '5K+', label: 'Teachers Trained', icon: 'Users' },
-    { number: '15+', label: 'States Covered', icon: 'MapPin' }
+    { number: '10+', label: 'Schools Transformed', icon: 'School' },
+    { number: '100+', label: 'Students Empowered', icon: 'GraduationCap' },
+    { number: '10+', label: 'Teachers Trained', icon: 'Users' },
+    { number: '2+', label: 'States Covered', icon: 'MapPin' }
   ];
 
   const getColorClasses = (color) => {

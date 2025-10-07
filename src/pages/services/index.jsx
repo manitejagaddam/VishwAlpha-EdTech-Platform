@@ -243,8 +243,8 @@ const Services = () => {
             className="grid grid-cols-2 lg:grid-cols-4 gap-8 mt-16"
           >
             {[
-              { value: '500+', label: 'Schools Transformed' },
-              { value: '2L+', label: 'Students Impacted' },
+              { value: '10+', label: 'Schools Transformed' },
+              { value: '100+', label: 'Students Impacted' },
               { value: '95%', label: 'Satisfaction Rate' },
               { value: '40%', label: 'Efficiency Gain' }
             ]?.map((stat, index) => (

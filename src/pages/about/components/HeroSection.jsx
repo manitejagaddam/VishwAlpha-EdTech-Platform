@@ -53,12 +53,12 @@ const HeroSection = () => {
         >
           <div className="flex items-center text-slate-400">
             <Icon name="Globe" size={20} className="mr-2 text-violet-400" />
-            <span>Serving 500+ Educational Institutions</span>
+            <span>Serving 10+ Educational Institutions</span>
           </div>
           <div className="hidden sm:block w-px h-6 bg-slate-600"></div>
           <div className="flex items-center text-slate-400">
             <Icon name="Users" size={20} className="mr-2 text-pink-400" />
-            <span>Empowering 100,000+ Students</span>
+            <span>Empowering 100+ Students</span>
           </div>
         </motion.div>
       </div>

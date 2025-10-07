@@ -55,7 +55,7 @@ const ContactHero = () => {
             </div>
             <div className="flex items-center text-text-muted">
               <Icon name="Users" size={16} className="mr-2 text-pink-400" />
-              <span className="text-sm">500+ Educators Connected</span>
+              <span className="text-sm">10+ Educators Connected</span>
             </div>
           </div>
         </motion.div>
