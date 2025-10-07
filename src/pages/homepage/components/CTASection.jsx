@@ -101,17 +101,17 @@ const CTASection = ({ onNavigate }) => {
 
           {/* Trust Indicators */}
           <div className="flex flex-wrap justify-center items-center gap-8 text-slate-400 text-sm">
-            <div className="flex items-center">
+            {/* <div className="flex items-center">
               <Icon name="Shield" size={16} className="mr-2 text-emerald-400" />
               GDPR Compliant
-            </div>
-            <div className="flex items-center">
+            </div> */}
+            {/* <div className="flex items-center">
               <Icon name="Award" size={16} className="mr-2 text-amber-400" />
               ISO 27001 Certified
-            </div>
+            </div> */}
             <div className="flex items-center">
               <Icon name="Users" size={16} className="mr-2 text-violet-400" />
-              500+ Institutions Trust Us
+              10+ Institutions Trust Us
             </div>
             <div className="flex items-center">
               <Icon name="Globe" size={16} className="mr-2 text-pink-400" />

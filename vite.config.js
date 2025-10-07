@@ -3,19 +3,17 @@ import react from "@vitejs/plugin-react";
 import tsconfigPaths from "vite-tsconfig-paths";
 import tagger from "@dhiwise/component-tagger";
 
-const repoName = "VishwAlpha-EdTech-Platform"; 
-
 export default defineConfig({
-  base: `/${repoName}/`, 
-  build: {
-    outDir: "build", 
-    chunkSizeWarningLimit: 2000,
-  },
-  plugins: [tsconfigPaths(), react(), tagger()],
-  server: {
-    port: 4028,
-    host: "0.0.0.0",
-    strictPort: true,
-    allowedHosts: ['.amazonaws.com', '.builtwithrocket.new']
-  }
+	base: "/VishwAlpha-EdTech-Platform/",
+	build: {
+		outDir: "build",
+		chunkSizeWarningLimit: 2000,
+	},
+	plugins: [tsconfigPaths(), react(), tagger()],
+	server: {
+		port: 4028,
+		host: "0.0.0.0",
+		strictPort: true,
+		allowedHosts: [".amazonaws.com", ".builtwithrocket.new"],
+	},
 });

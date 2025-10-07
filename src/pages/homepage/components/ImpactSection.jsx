@@ -5,14 +5,14 @@ import Icon from '../../../components/AppIcon';
 const ImpactSection = () => {
   const stats = [
     {
-      number: "10M+",
+      number: "100+",
       label: "Students Empowered",
       description: "Across India and internationally",
       icon: "Users",
       gradient: "from-violet-500 to-purple-600"
     },
     {
-      number: "500+",
+      number: "10+",
       label: "Educational Institutions",
       description: "Trust VishwAlpha for AI solutions",
       icon: "Building",
@@ -39,26 +39,26 @@ const ImpactSection = () => {
       title: "CBSE Recognition",
       description: "Official recognition for innovative AI integration in education",
       icon: "Award",
-      year: "2024"
+      year: "2025"
     },
-    {
-      title: "ISO 27001 Certified",
-      description: "International standard for information security management",
-      icon: "Shield",
-      year: "2023"
-    },
+    // {
+    //   title: "ISO 27001 Certified",
+    //   description: "International standard for information security management",
+    //   icon: "Shield",
+    //   year: "2023"
+    // },
     {
       title: "EdTech Innovation Award",
       description: "Recognized for transformative impact on Indian education",
       icon: "Trophy",
-      year: "2024"
+      year: "2025"
     },
-    {
-      title: "Global Education Summit",
-      description: "Keynote speaker on AI in education at international forums",
-      icon: "Globe",
-      year: "2024"
-    }
+    // {
+    //   title: "Global Education Summit",
+    //   description: "Keynote speaker on AI in education at international forums",
+    //   icon: "Globe",
+    //   year: "2024"
+    // }
   ];
 
   const testimonials = [

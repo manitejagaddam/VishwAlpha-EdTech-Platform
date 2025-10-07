@@ -87,9 +87,9 @@ const Homepage = () => {
             <div>
               <h4 className="text-white font-semibold mb-4">Get in Touch</h4>
               <ul className="space-y-2 text-slate-400">
-                <li>info@vishwalpha.com</li>
-                <li>+91 98765 43210</li>
-                <li>New Delhi, India</li>
+                <li>ceo@vishwalpha.com</li>
+                <li>+91 63019 30132</li>
+                <li>Hyderabad, India</li>
                 <li>Global Presence</li>
               </ul>
             </div>

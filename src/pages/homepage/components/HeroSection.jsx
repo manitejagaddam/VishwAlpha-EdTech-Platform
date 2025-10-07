@@ -103,11 +103,11 @@ const HeroSection = ({ onNavigate }) => {
 
           {/* Trust Indicators */}
           <motion.div variants={fadeInUp} className="pt-8">
-            <p className="text-slate-400 text-sm mb-4">Trusted by 500+ Educational Institutions</p>
+            <p className="text-slate-400 text-sm mb-4">Trusted by 10+ Educational Institutions</p>
             <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
               <div className="text-slate-400 font-medium">CBSE Approved</div>
-              <div className="text-slate-400 font-medium">ISO 27001 Certified</div>
-              <div className="text-slate-400 font-medium">GDPR Compliant</div>
+              {/* <div className="text-slate-400 font-medium">ISO 27001 Certified</div> */}
+              {/* <div className="text-slate-400 font-medium">GDPR Compliant</div> */}
               <div className="text-slate-400 font-medium">NEP 2020 Aligned</div>
             </div>
           </motion.div>

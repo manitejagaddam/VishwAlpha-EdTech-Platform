@@ -5,7 +5,7 @@ const ScrollingTicker = () => {
   const messages = [
     "Building Smarter Futures, One Student at a Time",
     "AI for Education. Skills for Tomorrow",
-    "Empowering 10M+ Students Across India",
+    "Empowering 100+ Students Across India",
     "NEP 2020 Implementation Made Simple",
     "Where Ancient Wisdom Meets Modern AI",
     "Transforming Education Through Intelligence"
