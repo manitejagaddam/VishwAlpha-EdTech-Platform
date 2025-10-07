@@ -1,1 +1,1 @@
-"# VishwAlpha-EdTech-Platform" 
+# VishwAlpha-EdTech-Platform
