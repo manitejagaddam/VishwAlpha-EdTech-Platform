@@ -1,5 +1,6 @@
+// Routes.jsx
 import React from "react";
-import { Routes as RouterRoutes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import ErrorBoundary from "./components/ErrorBoundary";
 import NotFound from "./pages/NotFound";
@@ -10,11 +11,11 @@ import About from './pages/about';
 import Activities from './pages/activities';
 import Homepage from './pages/homepage';
 
-const Routes = () => {
+const AppRoutes = () => {
   return (
     <ErrorBoundary>
       <ScrollToTop />
-      <RouterRoutes>
+      <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
@@ -23,9 +24,9 @@ const Routes = () => {
         <Route path="/activities" element={<Activities />} />
         <Route path="/homepage" element={<Homepage />} />
         <Route path="*" element={<NotFound />} />
-      </RouterRoutes>
+      </Routes>
     </ErrorBoundary>
   );
 };
 
-export default Routes;
+export default AppRoutes;

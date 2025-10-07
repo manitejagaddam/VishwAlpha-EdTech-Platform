@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom"; // client-side navigation
 import Icon from "../AppIcon";
+import VishwaplhaIcon from "/vishwalpha.png";
 import Button from "./Button";
 
 const Header = () => {
@@ -44,26 +45,23 @@ const Header = () => {
 					? "bg-background/95 backdrop-blur-md border-b border-border shadow-brand"
 					: "bg-transparent"
 			}`}
+			// className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent `}
 		>
 			<div className="w-full">
 				<div className="flex items-center justify-between h-16 px-6 lg:px-8">
 					{/* Logo */}
 					<div
-						className="flex items-center cursor-pointer group"
+						className="flex items-center cursor-pointer"
 						onClick={() => handleNavigation("/homepage")}
 					>
-						<div className="relative">
-							<div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center shadow-glow group-hover:shadow-glow-lg transition-all duration-300">
-								<svg
-									viewBox="0 0 24 24"
-									className="w-6 h-6 text-white"
-									fill="currentColor"
-								>
-									<path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-								</svg>
-							</div>
-							<div className="absolute -inset-1 bg-gradient-primary rounded-lg opacity-0 group-hover:opacity-20 transition-opacity duration-300 blur-sm"></div>
-						</div>
+						{/* Logo Image only */}
+						<img
+							src={VishwaplhaIcon}
+							alt="VishwAlpha Logo"
+							className="w-14 h-14 sm:w-18 sm:h-18 md:w-24 md:h-24 lg:w-26 lg:h-26 xl:w-30 xl:h-30 object-contain"
+						/>
+
+						{/* Logo Text */}
 						<div className="ml-3">
 							<h1 className="text-xl font-display font-bold text-gradient-primary">
 								VishwAlpha
